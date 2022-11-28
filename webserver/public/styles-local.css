@@ -65,6 +65,13 @@ a {
   -ms-animation: fadeIn ease 1s;
 }
 
+.center {
+  margin: auto;
+  width: 85%;
+  padding: 10px;
+}
+
+
 @keyframes fadeIn {
   0% {
     opacity: 0;

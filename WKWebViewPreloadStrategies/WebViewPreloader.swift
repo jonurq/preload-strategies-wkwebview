@@ -17,14 +17,11 @@ protocol Preloader {
 class WebViewPreloader: Preloader {
     static let shared = WebViewPreloader()
 
-    private let cache = NSCache<NSString, WKWebView>()
+    private var _webview: WKWebView?
     private let navDelegate = WebViewPreloaderDelegate()
-    private let cacheDelegate = WebViewCacheDelegate()
     private var subscriptions = Set<AnyCancellable>()
 
-    private init() {
-        cache.delegate = cacheDelegate
-    }
+    private init() { }
 
     func preload() {
         Task { @MainActor in
@@ -40,28 +37,28 @@ class WebViewPreloader: Preloader {
     }
 
     private func webview() -> WKWebView {
-        if let cachedWebView = cache.object(forKey: Constants.cacheKey) {
-            return cachedWebView
+        if let webview = _webview {
+            return webview
         }
 
-        let webView = WKWebView()
-        webView.navigationDelegate = navDelegate
+        let webview = WKWebView()
+        webview.navigationDelegate = navDelegate
 
 
-        webView.publisher(for: \.isLoading).dropFirst().sink { isLoading in
+        webview.publisher(for: \.isLoading).dropFirst().sink { isLoading in
             print("//// is loading:", isLoading)
         }.store(in: &subscriptions)
 
-        webView.publisher(for: \.estimatedProgress).sink { estimatedProgress in
+        webview.publisher(for: \.estimatedProgress).sink { estimatedProgress in
             print("/// Estimated progress:", estimatedProgress)
         }.store(in: &subscriptions)
 
-        cache.setObject(webView, forKey: Constants.cacheKey)
-        return webView
+        _webview = webview
+        return webview
     }
 
     func clean() {
-        cache.removeAllObjects()
+        _webview = nil
         HTTPCookieStorage.shared.removeCookies(since: Date.distantPast)
         let dataTypes = WKWebsiteDataStore.allWebsiteDataTypes()
         let store = WKWebsiteDataStore.default()
@@ -77,31 +74,11 @@ class WebViewPreloader: Preloader {
             }
         }
     }
-
-    func removeWebView() {
-        cache.removeAllObjects()
-
-
-
-    }
-
-    enum Constants {
-        static let cacheKey: NSString = "cache_webview_key"
-    }
 }
 
 class WebViewPreloaderDelegate: NSObject, WKNavigationDelegate {
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
         print("Finished")
         print("Web view is loading", webView.isLoading)
-        
-        //WebViewPreloader.shared.removeWebView()
-
-    }
-}
-
-class WebViewCacheDelegate: NSObject, NSCacheDelegate {
-    func cache(_ cache: NSCache<AnyObject, AnyObject>, willEvictObject obj: Any) {
-        print("Will evict object")
     }
 }
