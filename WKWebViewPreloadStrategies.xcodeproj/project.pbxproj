@@ -13,6 +13,7 @@
 		B837394D29340ECB006C0529 /* ocean.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B837394C29340ECB006C0529 /* ocean.jpeg */; };
 		B837394F29341A74006C0529 /* ExampleTableViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B837394E29341A74006C0529 /* ExampleTableViewPresenter.swift */; };
 		B837395129341B89006C0529 /* FlowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B837395029341B89006C0529 /* FlowModel.swift */; };
+		B83739532934FC8F006C0529 /* CustomSchemeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83739522934FC8F006C0529 /* CustomSchemeHandler.swift */; };
 		B8541F17291FD3E700D26D7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8541F16291FD3E700D26D7A /* AppDelegate.swift */; };
 		B8541F19291FD3E700D26D7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8541F18291FD3E700D26D7A /* SceneDelegate.swift */; };
 		B8541F1B291FD3E700D26D7A /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8541F1A291FD3E700D26D7A /* WebViewViewController.swift */; };
@@ -34,6 +35,7 @@
 		B837394C29340ECB006C0529 /* ocean.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ocean.jpeg; sourceTree = "<group>"; };
 		B837394E29341A74006C0529 /* ExampleTableViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTableViewPresenter.swift; sourceTree = "<group>"; };
 		B837395029341B89006C0529 /* FlowModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowModel.swift; sourceTree = "<group>"; };
+		B83739522934FC8F006C0529 /* CustomSchemeHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSchemeHandler.swift; sourceTree = "<group>"; };
 		B8541F13291FD3E700D26D7A /* WKWebViewPreloadStrategies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKWebViewPreloadStrategies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8541F16291FD3E700D26D7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8541F18291FD3E700D26D7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				B87F4CAB2923D06A0005418E /* ExampleFlowLauncher */,
 				B8541F16291FD3E700D26D7A /* AppDelegate.swift */,
 				B8541F18291FD3E700D26D7A /* SceneDelegate.swift */,
+				B83739522934FC8F006C0529 /* CustomSchemeHandler.swift */,
 				B8373946293402AE006C0529 /* HomeViewController.swift */,
 				B8541F1A291FD3E700D26D7A /* WebViewViewController.swift */,
 				B8541F1F291FD3EA00D26D7A /* Assets.xcassets */,
@@ -195,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B83739532934FC8F006C0529 /* CustomSchemeHandler.swift in Sources */,
 				B87F4CAA2923CDC10005418E /* ExampleTableViewController.swift in Sources */,
 				B837394929340467006C0529 /* URLConfig.swift in Sources */,
 				B8541F1B291FD3E700D26D7A /* WebViewViewController.swift in Sources */,
