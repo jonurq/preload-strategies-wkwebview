@@ -7,23 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B8373947293402AE006C0529 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8373946293402AE006C0529 /* HomeViewController.swift */; };
+		B837394929340467006C0529 /* URLConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B837394829340467006C0529 /* URLConfig.swift */; };
+		B837394B29340E75006C0529 /* ocean-2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B837394A29340E75006C0529 /* ocean-2.jpeg */; };
+		B837394D29340ECB006C0529 /* ocean.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B837394C29340ECB006C0529 /* ocean.jpeg */; };
+		B837394F29341A74006C0529 /* ExampleTableViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B837394E29341A74006C0529 /* ExampleTableViewPresenter.swift */; };
+		B837395129341B89006C0529 /* FlowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B837395029341B89006C0529 /* FlowModel.swift */; };
 		B8541F17291FD3E700D26D7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8541F16291FD3E700D26D7A /* AppDelegate.swift */; };
 		B8541F19291FD3E700D26D7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8541F18291FD3E700D26D7A /* SceneDelegate.swift */; };
-		B8541F1B291FD3E700D26D7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8541F1A291FD3E700D26D7A /* ViewController.swift */; };
-		B8541F1E291FD3E700D26D7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8541F1C291FD3E700D26D7A /* Main.storyboard */; };
+		B8541F1B291FD3E700D26D7A /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8541F1A291FD3E700D26D7A /* WebViewViewController.swift */; };
 		B8541F20291FD3EA00D26D7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8541F1F291FD3EA00D26D7A /* Assets.xcassets */; };
 		B8541F23291FD3EA00D26D7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8541F21291FD3EA00D26D7A /* LaunchScreen.storyboard */; };
+		B8541F2B291FF85C00D26D7A /* CacheCleaner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8541F2A291FF85C00D26D7A /* CacheCleaner.swift */; };
+		B87F4CA82923CD850005418E /* WebViewPreloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87F4CA72923CD850005418E /* WebViewPreloader.swift */; };
+		B87F4CAA2923CDC10005418E /* ExampleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87F4CA92923CDC10005418E /* ExampleTableViewController.swift */; };
+		B87F4CB729242B8D0005418E /* segma-bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B87F4CB329242AFC0005418E /* segma-bold.otf */; };
+		B87F4CB829242B8F0005418E /* segma-medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = B87F4CB529242AFC0005418E /* segma-medium.otf */; };
+		B87F4CB929242B920005418E /* segma-regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B87F4CB229242AFC0005418E /* segma-regular.otf */; };
+		B87F4CBA29242B930005418E /* segma-semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B87F4CB129242AFC0005418E /* segma-semibold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B8373946293402AE006C0529 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B837394829340467006C0529 /* URLConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLConfig.swift; sourceTree = "<group>"; };
+		B837394A29340E75006C0529 /* ocean-2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ocean-2.jpeg"; sourceTree = "<group>"; };
+		B837394C29340ECB006C0529 /* ocean.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ocean.jpeg; sourceTree = "<group>"; };
+		B837394E29341A74006C0529 /* ExampleTableViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTableViewPresenter.swift; sourceTree = "<group>"; };
+		B837395029341B89006C0529 /* FlowModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowModel.swift; sourceTree = "<group>"; };
 		B8541F13291FD3E700D26D7A /* WKWebViewPreloadStrategies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKWebViewPreloadStrategies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8541F16291FD3E700D26D7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8541F18291FD3E700D26D7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B8541F1A291FD3E700D26D7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B8541F1D291FD3E700D26D7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B8541F1A291FD3E700D26D7A /* WebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
 		B8541F1F291FD3EA00D26D7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8541F22291FD3EA00D26D7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8541F24291FD3EA00D26D7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8541F2A291FF85C00D26D7A /* CacheCleaner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheCleaner.swift; sourceTree = "<group>"; };
+		B87F4CA72923CD850005418E /* WebViewPreloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewPreloader.swift; sourceTree = "<group>"; };
+		B87F4CA92923CDC10005418E /* ExampleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTableViewController.swift; sourceTree = "<group>"; };
+		B87F4CB129242AFC0005418E /* segma-semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "segma-semibold.otf"; sourceTree = "<group>"; };
+		B87F4CB229242AFC0005418E /* segma-regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "segma-regular.otf"; sourceTree = "<group>"; };
+		B87F4CB329242AFC0005418E /* segma-bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "segma-bold.otf"; sourceTree = "<group>"; };
+		B87F4CB529242AFC0005418E /* segma-medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "segma-medium.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +80,43 @@
 		B8541F15291FD3E700D26D7A /* WKWebViewPreloadStrategies */ = {
 			isa = PBXGroup;
 			children = (
+				B87F4CB029242ADD0005418E /* Assets */,
+				B87F4CAB2923D06A0005418E /* ExampleFlowLauncher */,
 				B8541F16291FD3E700D26D7A /* AppDelegate.swift */,
 				B8541F18291FD3E700D26D7A /* SceneDelegate.swift */,
-				B8541F1A291FD3E700D26D7A /* ViewController.swift */,
-				B8541F1C291FD3E700D26D7A /* Main.storyboard */,
+				B8373946293402AE006C0529 /* HomeViewController.swift */,
+				B8541F1A291FD3E700D26D7A /* WebViewViewController.swift */,
 				B8541F1F291FD3EA00D26D7A /* Assets.xcassets */,
 				B8541F21291FD3EA00D26D7A /* LaunchScreen.storyboard */,
 				B8541F24291FD3EA00D26D7A /* Info.plist */,
+				B8541F2A291FF85C00D26D7A /* CacheCleaner.swift */,
+				B87F4CA72923CD850005418E /* WebViewPreloader.swift */,
 			);
 			path = WKWebViewPreloadStrategies;
+			sourceTree = "<group>";
+		};
+		B87F4CAB2923D06A0005418E /* ExampleFlowLauncher */ = {
+			isa = PBXGroup;
+			children = (
+				B837394829340467006C0529 /* URLConfig.swift */,
+				B87F4CA92923CDC10005418E /* ExampleTableViewController.swift */,
+				B837394E29341A74006C0529 /* ExampleTableViewPresenter.swift */,
+				B837395029341B89006C0529 /* FlowModel.swift */,
+			);
+			path = ExampleFlowLauncher;
+			sourceTree = "<group>";
+		};
+		B87F4CB029242ADD0005418E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B837394C29340ECB006C0529 /* ocean.jpeg */,
+				B837394A29340E75006C0529 /* ocean-2.jpeg */,
+				B87F4CB329242AFC0005418E /* segma-bold.otf */,
+				B87F4CB529242AFC0005418E /* segma-medium.otf */,
+				B87F4CB229242AFC0005418E /* segma-regular.otf */,
+				B87F4CB129242AFC0005418E /* segma-semibold.otf */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +177,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B87F4CB729242B8D0005418E /* segma-bold.otf in Resources */,
+				B87F4CB829242B8F0005418E /* segma-medium.otf in Resources */,
 				B8541F23291FD3EA00D26D7A /* LaunchScreen.storyboard in Resources */,
+				B87F4CB929242B920005418E /* segma-regular.otf in Resources */,
+				B837394D29340ECB006C0529 /* ocean.jpeg in Resources */,
+				B87F4CBA29242B930005418E /* segma-semibold.otf in Resources */,
+				B837394B29340E75006C0529 /* ocean-2.jpeg in Resources */,
 				B8541F20291FD3EA00D26D7A /* Assets.xcassets in Resources */,
-				B8541F1E291FD3E700D26D7A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +195,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8541F1B291FD3E700D26D7A /* ViewController.swift in Sources */,
+				B87F4CAA2923CDC10005418E /* ExampleTableViewController.swift in Sources */,
+				B837394929340467006C0529 /* URLConfig.swift in Sources */,
+				B8541F1B291FD3E700D26D7A /* WebViewViewController.swift in Sources */,
 				B8541F17291FD3E700D26D7A /* AppDelegate.swift in Sources */,
+				B837394F29341A74006C0529 /* ExampleTableViewPresenter.swift in Sources */,
 				B8541F19291FD3E700D26D7A /* SceneDelegate.swift in Sources */,
+				B837395129341B89006C0529 /* FlowModel.swift in Sources */,
+				B8373947293402AE006C0529 /* HomeViewController.swift in Sources */,
+				B87F4CA82923CD850005418E /* WebViewPreloader.swift in Sources */,
+				B8541F2B291FF85C00D26D7A /* CacheCleaner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B8541F1C291FD3E700D26D7A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B8541F1D291FD3E700D26D7A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B8541F21291FD3EA00D26D7A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,12 +343,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = X4MZWKL42Q;
+				DEVELOPMENT_TEAM = UF8837E8YG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WKWebViewPreloadStrategies/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -300,7 +355,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jonurq.WKWebViewPreloadStrategies;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonurq.WebViewPreloadStrategies;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -315,12 +370,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = X4MZWKL42Q;
+				DEVELOPMENT_TEAM = UF8837E8YG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WKWebViewPreloadStrategies/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -328,7 +382,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jonurq.WKWebViewPreloadStrategies;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonurq.WebViewPreloadStrategies;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

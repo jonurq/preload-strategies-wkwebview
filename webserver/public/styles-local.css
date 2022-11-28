@@ -1,0 +1,116 @@
+@font-face {
+  font-family:'Segma-Regular';
+  font-style:normal;font-weight:400;
+  font-display:swap;
+  src:url(peya-local://fonts/segma/segma-regular.otf) format('opentype'),
+    url(https://esalodfleeiboouswgwj.supabase.co/storage/v1/object/public/jk-bucket/segma-regular.otf) format('opentype');
+}
+  
+@font-face {
+  font-family:'Segma-Medium';
+  font-style:normal;font-weight:500;
+  font-display:swap;
+  src:url(peya-local://fonts/segma/segma-medium.otf) format('opentype'),
+    url(https://esalodfleeiboouswgwj.supabase.co/storage/v1/object/public/jk-bucket/segma-medium.otf) format('opentype');
+}
+
+@font-face {
+  font-family:'Segma-Semibold';
+  font-style:normal;
+  font-weight:600;
+  font-display:swap;
+  src:url(peya-local://fonts/segma/segma-semibold.otf) format('opentype'),
+    url(https://esalodfleeiboouswgwj.supabase.co/storage/v1/object/public/jk-bucket/segma-semibold.otf) format('opentype');
+}
+
+@font-face{
+  font-family:'Segma-Bold';
+  font-style:normal;
+  font-weight:700;
+  font-display:swap;
+  src:url(peya-local://fonts/segma/segma-bold.otf) format('opentype'),
+    url(https://esalodfleeiboouswgwj.supabase.co/storage/v1/object/public/jk-bucket/segma-bold.otf) format('opentype');
+}
+
+p {
+  font-family: 'Segma-Regular', sans-serif;
+}
+h1 {
+  font-family: 'Segma-Bold', sans-serif;
+}
+h2 {
+  font-family: 'Segma-Bold', sans-serif;
+}
+h3 {
+  font-family: 'Segma-Semibold', sans-serif;
+}
+h4 {
+  font-family: 'Segma-Medium', sans-serif;
+}
+
+img {
+  width: 100%;
+  animation: fadeIn 1s;
+}
+
+a {
+  font-family: 'Segma-Bold', sans-serif;
+}
+
+.fade-in {
+  animation: fadeIn ease 1s;
+  -webkit-animation: fadeIn ease 1s;
+  -moz-animation: fadeIn ease 1s;
+  -o-animation: fadeIn ease 1s;
+  -ms-animation: fadeIn ease 1s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
