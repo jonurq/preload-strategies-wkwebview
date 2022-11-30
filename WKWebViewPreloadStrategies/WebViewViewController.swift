@@ -11,8 +11,6 @@ import Combine
 
 class WebViewViewController: UIViewController {
 
-    private var subscriptions = Set<AnyCancellable>()
-
     let urlString: String
     let customHandler: Bool
 
@@ -61,10 +59,6 @@ class WebViewViewController: UIViewController {
 
         let webview = WKWebView(frame: .zero, configuration: configuration)
         webview.translatesAutoresizingMaskIntoConstraints = false
-
-        webview.publisher(for: \.isLoading).dropFirst().sink { isLoading in
-            print("//// is loading:", isLoading)
-        }.store(in: &subscriptions)
 
         self.webview = webview
     }

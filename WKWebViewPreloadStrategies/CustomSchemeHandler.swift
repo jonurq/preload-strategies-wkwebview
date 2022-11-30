@@ -28,8 +28,6 @@ class CustomSchemeHandler: NSObject, WKURLSchemeHandler {
         urlSchemeTask.didFinish()
     }
 
-
-
     func webView(_ webView: WKWebView, stop urlSchemeTask: WKURLSchemeTask) {
         print("Stop urlSchemeTask")
     }

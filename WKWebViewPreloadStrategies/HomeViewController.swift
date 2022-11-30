@@ -23,10 +23,6 @@ class HomeViewController: UIViewController {
 
         configureButton()
         setupView()
-    }
-
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
 
         if shouldPreload {
             WebViewPreloader.shared.preload()

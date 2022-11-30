@@ -10,10 +10,10 @@ import Foundation
 enum FlowModel: CaseIterable {
     case clearCache,
          preloadWebView,
-         homeNativeWithoutPreload,
-         homeNativeWithPreload,
          homeWebWithoutPreload,
          homeWebViewWithoutPreload,
+         homeNativeWithoutPreload,
+         homeNativeWithPreload,
          homeWebViewCustomHandler
 
     var title: String {
@@ -22,16 +22,16 @@ enum FlowModel: CaseIterable {
             return "Clear Cache"
         case .preloadWebView:
             return "Preload Web View"
-        case .homeNativeWithoutPreload:
-            return "Native Home without Preload"
-        case .homeNativeWithPreload:
-            return "Native Home with Preload"
         case .homeWebWithoutPreload:
-            return "Web Home without Preload"
+            return "Demo 1: Web Home without Preload"
         case .homeWebViewWithoutPreload:
-            return "Web Home with Preload"
+            return "Demo 1: Web Home with Preload"
+        case .homeNativeWithoutPreload:
+            return "Demo 2: Native Home without Preload"
+        case .homeNativeWithPreload:
+            return "Demo 2: Native Home with Preload"
         case .homeWebViewCustomHandler:
-            return "Web Home Local Resources"
+            return "Bonus: Web Home Local Resources"
         }
     }
 }
